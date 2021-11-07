@@ -1,0 +1,17 @@
+temp/tesla-website-china/api/tesla/footer/html/v1.html
+temp/tesla-website-china/api/tesla/header/v1.json
+temp/tesla-website-china/api/tesla/header/v2.json
+temp/tesla-website-china/charging.html
+temp/tesla-website-china/cybertruck.html
+temp/tesla-website-china/findus/list/services.html
+temp/tesla-website-china/findus/list/stores.html
+temp/tesla-website-china/findus/list/superchargers.html
+temp/tesla-website-china/index.html
+temp/tesla-website-china/model3.html
+temp/tesla-website-china/models.html
+temp/tesla-website-china/modelx.html
+temp/tesla-website-china/modely.html
+temp/tesla-website-china/powerwall.html
+temp/tesla-website-china/roadster.html
+temp/tesla-website-china/solarpanels.html
+temp/tesla-website-china/solarroof.html
