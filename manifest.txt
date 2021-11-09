@@ -1,6 +1,3 @@
-temp/tesla-website-china/api/tesla/footer/html/v1.html
-temp/tesla-website-china/api/tesla/header/v1.json
-temp/tesla-website-china/api/tesla/header/v2.json
 temp/tesla-website-china/charging.html
 temp/tesla-website-china/cybertruck.html
 temp/tesla-website-china/findus/list/services.html
