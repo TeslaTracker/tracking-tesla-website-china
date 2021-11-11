@@ -1,8 +1,5 @@
 temp/tesla-website-china/charging.html
 temp/tesla-website-china/cybertruck.html
-temp/tesla-website-china/findus/list/services.html
-temp/tesla-website-china/findus/list/stores.html
-temp/tesla-website-china/findus/list/superchargers.html
 temp/tesla-website-china/index.html
 temp/tesla-website-china/model3.html
 temp/tesla-website-china/models.html
