@@ -1,7 +1,7 @@
 temp/tesla-website-china/charging.html
 temp/tesla-website-china/cybertruck.html
-temp/tesla-website-china/index.html
 temp/tesla-website-china/model3.html
+temp/tesla-website-china/index.html
 temp/tesla-website-china/models.html
 temp/tesla-website-china/modelx.html
 temp/tesla-website-china/modely.html
