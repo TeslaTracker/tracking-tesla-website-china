@@ -1,5 +1,5 @@
 {
-  "date": 1637000065261,
+  "date": 1637010786174,
   "KeyManager": {
     "keys": {
       "Lexicon": [
@@ -1366,12 +1366,12 @@
   },
   "Lexicon.mx": {
     "id": 1642,
-    "effective_date": "2021-11-02T02:22:00.000Z",
+    "effective_date": "2021-11-12T02:06:00.000Z",
     "market": "CN",
     "product": "mx",
     "factory": "GF00",
     "fees": {},
-    "name": "Marketing CN 2021.Nov.02 1642.3544.3062",
+    "name": "Marketing CN 2021.Nov.12 1642.3710.3062",
     "groups": [
       {
         "code": "MODEL",
@@ -2446,7 +2446,13 @@
           {
             "type": "components",
             "content": [
-              { "type": "Title", "props": { "component": "h4" } },
+              {
+                "type": "Title",
+                "props": {
+                  "classes": "tds-text--h4 tds-text--center",
+                  "component": "h3"
+                }
+              },
               {
                 "type": "Options",
                 "props": {
@@ -14117,7 +14123,7 @@
         "content_localized": {}
       }
     ],
-    "copy_id": 3544,
+    "copy_id": 3710,
     "language": "zh",
     "pricing_id": 3062
   }
