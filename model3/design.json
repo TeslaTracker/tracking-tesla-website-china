@@ -1,5 +1,5 @@
 {
-  "date": 1637269921778,
+  "date": 1637282822927,
   "KeyManager": {
     "keys": {
       "Lexicon": [
@@ -864,6 +864,7 @@
             "$MT334",
             "$MT336",
             "$MT337",
+            "$MT322",
             "$MTY08",
             "$MTY13"
           ]
@@ -882,7 +883,8 @@
             "$MT336",
             "$MT337",
             "$MT339",
-            "$MT325"
+            "$MT325",
+            "$MT322"
           ]
         },
         "target": true
@@ -954,6 +956,7 @@
         "selected_by": {
           "or": [
             "$MT335",
+            "$MT322",
             "$MTS09",
             "$MTS10",
             "$MTS11",
@@ -994,10 +997,25 @@
       "showQtyInput": false,
       "VehicleDetail": {},
       "showInventoryOrderFirstPaymentPolicy": false,
+      "showThirdPartyHistoryUrl": false,
       "showDOCandOMVICfees": true,
       "showVATBreakdown": false,
       "showDeliveryEstDisclaimer": true,
-      "nonRefundPolicy": { "source": true, "target": true },
+      "nonRefundPolicy": {
+        "source": true,
+        "selected_by": {
+          "or": [
+            "$MT322",
+            "$MTS09",
+            "$MTS10",
+            "$MTS11",
+            "$MTX10",
+            "$MTX11",
+            "$MTY13"
+          ]
+        },
+        "target": false
+      },
       "displayOrderRefundLongCopy": { "source": false, "target": false },
       "nonRefundPolicyDisclaimer": false,
       "showOrderRefundDisclaimer": true,
@@ -1065,6 +1083,7 @@
       "showNonTransferrable": true,
       "hideIncentivesOrderPage": false,
       "showAvailableInState": false,
+      "showElectronicPayment": false,
       "showAccountTypeSwitch": true,
       "extraBusinessFields": ["CompanyName", "CHAMBER_OF_COMMERCE"],
       "extraPersonalFields": [
@@ -1317,7 +1336,7 @@
           "if": {
             "car_price": {
               "conditions": { "vehiclePrice": { "<": 300000 } },
-              "trims": ["$MT336", "$MT337"],
+              "trims": ["$MT336", "$MT337", "$MT322"],
               "amount": 15840
             }
           }
@@ -1338,7 +1357,7 @@
           "if": {
             "car_price": {
               "conditions": { "vehiclePrice": { "<": 300000 } },
-              "trims": ["$MT336", "$MT337"],
+              "trims": ["$MT336", "$MT337", "$MT322"],
               "amount": 11088
             }
           }
@@ -1359,7 +1378,7 @@
           "if": {
             "car_price": {
               "conditions": { "vehiclePrice": { "<": 300000 } },
-              "trims": ["$MT336", "$MT337"],
+              "trims": ["$MT336", "$MT337", "$MT322", "$MTY08", "$MTY13"],
               "amount": 11088
             }
           }
@@ -1491,6 +1510,7 @@
           "option": {
             "$MT335": 0,
             "$MT339": 0,
+            "$MT322": 0,
             "$MTS09": 0,
             "$MTS10": 0,
             "$MTS11": 0,
@@ -1584,7 +1604,7 @@
         "incomplete": false,
         "variant": ["m3", "my", "ms", "mx"],
         "inventory": ["new"],
-        "selected_by": { "not": ["$MT337", "$MTY08", "$MTY13"] },
+        "selected_by": { "not": ["$MT337", "$MT322", "$MTY08", "$MTY13"] },
         "variables": {
           "downPayment": 0.2,
           "downPaymentPercentMatrix": [0.1, 0.2, 0.3, 0.4, 0.5],
