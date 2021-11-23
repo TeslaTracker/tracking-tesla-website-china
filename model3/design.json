@@ -189,7 +189,7 @@
           "current": { "url": "", "view": "", "index": 0 },
           "available": [
             "STUD_SIDE",
-            "STUD.TR",
+            "STUD_3QTR",
             "SIDE",
             "STUD_SIDEVIEW",
             "STUD_FRONT34",
@@ -235,9 +235,9 @@
             "DRIVE"
           ]
         },
-        "STUD.TR": {
+        "STUD_3QTR": {
           "image_alt_description": "Three Quater View",
-          "view": "STUD.TR",
+          "view": "STUD_3QTR",
           "size": 1441,
           "url": "",
           "relevant_groups": [
@@ -831,7 +831,7 @@
       "showLegalConsent": ["ORDER_CONSENT", "RETURN_POLICY_CONSENT"],
       "showPrpLink": false,
       "showVAT": true,
-      "assetView": "STUD.TR",
+      "assetView": "STUD_3QTR",
       "assetViewSource": [
         {
           "view": "FRONT34",
@@ -843,11 +843,11 @@
             ]
           }
         },
-        { "view": "STUD.TR" }
+        { "view": "STUD_3QTR" }
       ],
       "asset": {
         "type": "image-compositor",
-        "view": "STUD.TR",
+        "view": "STUD_3QTR",
         "bkba": 1,
         "zoom": 1
       },
@@ -1496,7 +1496,7 @@
         "exemption_cap": null,
         "amount": 0,
         "vehicle_tax_values": {
-          "source": "http://www.gov.cn/banshi/2005-08/19/content.868.htm",
+          "source": "http://www.gov.cn/banshi/2005-08/19/content_24868.htm",
           "DOCSTRING": "amount is 10 percent of vehicle price (exclude Value Add Tax)  * 10% ÷ 1.17",
           "rateTable": [{ "amount": null, "taxRate": 0.08547 }]
         }
@@ -2047,14 +2047,14 @@
             "type": "coming_soon_description",
             "content": "<div><p>Additional configurations, including the entry level Model 3 without upgrades, will become available as production ramps.</p></div>"
           },
-          { "type": "base.", "content": "基础版 35,000 美元" },
-          { "type": "fall.", "content": "2018 年末" },
+          { "type": "base_35", "content": "基础版 35,000 美元" },
+          { "type": "fall_17", "content": "2018 年末" },
           {
             "type": "standard_range",
             "content": "标配电池 - 220 英里（EPA 预估值）"
           },
           { "type": "premium_upgrade", "content": "高级升级选件" },
-          { "type": "winter.", "content": "2018 年中" },
+          { "type": "winter_18", "content": "2018 年中" },
           { "type": "all_wheel", "content": "双电机全轮驱动" },
           {
             "type": "features.notifyMe",
@@ -8220,7 +8220,7 @@
             "type": "asset",
             "content": [
               {
-                "url": "MODEL3/UI/ui-option-selector.ZeroGwithoutAero.png",
+                "url": "MODEL3/UI/ui-option-selector_19ZeroGwithoutAero.png",
                 "type": "image"
               }
             ]
@@ -12310,7 +12310,7 @@
         "extra_content": [
           {
             "type": "action",
-            "content": [{ "type": "hero-update", "view": "STUD.TR" }]
+            "content": [{ "type": "hero-update", "view": "STUD_3QTR" }]
           },
           {
             "type": "price_indicator_override",

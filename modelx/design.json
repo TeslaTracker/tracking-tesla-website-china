@@ -189,7 +189,7 @@
           "current": { "url": "", "view": "", "index": 0 },
           "available": [
             "STUD_SIDE_V2",
-            "STUD.TR_V2",
+            "STUD_3QTR_V2",
             "FRONT34",
             "SIDE",
             "REAR34",
@@ -225,9 +225,9 @@
             "SPOILER"
           ]
         },
-        "STUD.TR": {
+        "STUD_3QTR": {
           "image_alt_description": "Three Quater View",
-          "view": "STUD.TR",
+          "view": "STUD_3QTR",
           "size": 1441,
           "url": ""
         },
@@ -332,8 +332,8 @@
           "url": "",
           "relevant_groups": ["WHEELS", "PAINT", "TRIM", "INTERIOR_COLORWAY"]
         },
-        "STUD.TR_V2": {
-          "view": "STUD.TR_V2",
+        "STUD_3QTR_V2": {
+          "view": "STUD_3QTR_V2",
           "size": 1441,
           "url": "",
           "relevant_groups": [
@@ -773,7 +773,7 @@
       "showLegalConsent": ["ORDER_CONSENT", "RETURN_POLICY_CONSENT"],
       "showPrpLink": false,
       "showVAT": true,
-      "assetView": "STUD.TR",
+      "assetView": "STUD_3QTR",
       "assetViewSource": [
         {
           "view": "FRONT34",
@@ -785,11 +785,11 @@
             ]
           }
         },
-        { "view": "STUD.TR" }
+        { "view": "STUD_3QTR" }
       ],
       "asset": {
         "type": "image-compositor",
-        "view": "STUD.TR_V2",
+        "view": "STUD_3QTR_V2",
         "bkba": 1,
         "zoom": 1.5
       },
@@ -1218,7 +1218,7 @@
         "exemption_cap": null,
         "amount": 0,
         "vehicle_tax_values": {
-          "source": "http://www.gov.cn/banshi/2005-08/19/content.868.htm",
+          "source": "http://www.gov.cn/banshi/2005-08/19/content_24868.htm",
           "DOCSTRING": "amount is 10 percent of vehicle price (exclude Value Add Tax)  * 10% ÷ 1.17",
           "rateTable": [{ "amount": null, "taxRate": 0.08547 }]
         }
