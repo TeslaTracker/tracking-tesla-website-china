@@ -1,4 +1,3 @@
-temp/tesla-website-cn/cybertruck/design.json
 temp/tesla-website-cn/index.html
 temp/tesla-website-cn/model3/design.json
 temp/tesla-website-cn/models/design.json
