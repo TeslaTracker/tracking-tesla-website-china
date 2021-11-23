@@ -1,5 +1,5 @@
 {
-  "date": 1637682723470,
+  "date": 0,
   "KeyManager": {
     "keys": {
       "Lexicon": [
@@ -11,7 +11,7 @@
             "market": "CN",
             "app": "find-my-tesla",
             "isTcoEnabled": "0",
-            "date": "",
+            "date": 0,
             "seekret": "",
             "tags": "",
             "context": "",
@@ -31,7 +31,7 @@
             "market": "CN",
             "app": "find-my-tesla",
             "isTcoEnabled": "0",
-            "date": "",
+            "date": 0,
             "seekret": "",
             "tags": "",
             "context": "",
@@ -51,7 +51,7 @@
             "market": "CN",
             "app": "find-my-tesla",
             "isTcoEnabled": "0",
-            "date": "",
+            "date": 0,
             "seekret": "",
             "tags": "",
             "context": "",
@@ -71,7 +71,7 @@
             "market": "CN",
             "app": "find-my-tesla",
             "isTcoEnabled": "0",
-            "date": "",
+            "date": 0,
             "seekret": "",
             "tags": "",
             "context": "",
@@ -91,7 +91,7 @@
             "market": "CN",
             "app": "find-my-tesla",
             "isTcoEnabled": "0",
-            "date": "",
+            "date": 0,
             "seekret": "",
             "tags": "",
             "context": "",
@@ -111,7 +111,7 @@
             "market": "CN",
             "app": "find-my-tesla",
             "isTcoEnabled": "0",
-            "date": "",
+            "date": 0,
             "seekret": "",
             "tags": "",
             "context": "",
@@ -129,7 +129,7 @@
       "market": "CN",
       "app": "find-my-tesla",
       "isTcoEnabled": "0",
-      "date": "",
+      "date": 0,
       "seekret": "",
       "tags": "",
       "context": "",
@@ -189,7 +189,7 @@
           "current": { "url": "", "view": "", "index": 0 },
           "available": [
             "STUD_SIDE",
-            "STUD_3QTR",
+            "STUD.TR",
             "SIDE",
             "FRONT34",
             "REAR34",
@@ -219,9 +219,9 @@
           ]
         },
         "STUD_SIDEVIEW": { "image_alt_description": "Side View" },
-        "STUD_3QTR": {
+        "STUD.TR": {
           "image_alt_description": "Three Quater View",
-          "view": "STUD_3QTR",
+          "view": "STUD.TR",
           "size": 1441,
           "url": "",
           "relevant_groups": [
@@ -765,7 +765,7 @@
       "showLegalConsent": ["ORDER_CONSENT", "RETURN_POLICY_CONSENT"],
       "showPrpLink": false,
       "showVAT": true,
-      "assetView": "STUD_3QTR",
+      "assetView": "STUD.TR",
       "assetViewSource": [
         {
           "view": "FRONT34",
@@ -777,11 +777,11 @@
             ]
           }
         },
-        { "view": "STUD_3QTR" }
+        { "view": "STUD.TR" }
       ],
       "asset": {
         "type": "image-compositor",
-        "view": "STUD_3QTR",
+        "view": "STUD.TR",
         "bkba": 1,
         "zoom": 1
       },
@@ -1237,7 +1237,7 @@
         "exemption_cap": null,
         "amount": 0,
         "vehicle_tax_values": {
-          "source": "http://www.gov.cn/banshi/2005-08/19/content_24868.htm",
+          "source": "http://www.gov.cn/banshi/2005-08/19/content.868.htm",
           "DOCSTRING": "amount is 10 percent of vehicle price (exclude Value Add Tax)  * 10% ÷ 1.17",
           "rateTable": [{ "amount": null, "taxRate": 0.08547 }]
         }
@@ -1483,12 +1483,12 @@
         "extra_content": [
           {
             "type": "action",
-            "content": [{ "type": "hero-update", "view": "STUD_3QTR" }]
+            "content": [{ "type": "hero-update", "view": "STUD.TR" }]
           },
           {
             "type": "asset",
             "content": [
-              { "bkba": 1, "type": "image-compositor", "view": "STUD_3QTR" }
+              { "bkba": 1, "type": "image-compositor", "view": "STUD.TR" }
             ]
           }
         ],
@@ -1735,7 +1735,7 @@
         "extra_content": [
           {
             "type": "action",
-            "content": [{ "type": "hero-update", "view": "STUD_3QTR" }]
+            "content": [{ "type": "hero-update", "view": "STUD.TR" }]
           },
           {
             "type": "asset",
@@ -4192,7 +4192,7 @@
                 "selected_by": { "and": ["$INYPB"] }
               },
               {
-                "url": "MODELY/UI/Config_7Seat_White.jpeg",
+                "url": "MODELY/UI/Config.eat_White.jpeg",
                 "type": "image",
                 "ratio": "slice",
                 "selected_by": { "and": ["$INYPW"] }
