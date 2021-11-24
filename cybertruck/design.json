@@ -425,7 +425,7 @@
         }
       },
       "PaymentTypes": ["ALIPAY", "WECHATPAY", "CC"],
-      "paymentTabsType": "pill",
+      "paymentTabsType": "tab",
       "collectAllBillingInfo": false,
       "registration": {
         "showBusinessFields": false,
@@ -451,6 +451,7 @@
       "showOptinDisclaimer": "always",
       "billingAddressDetailsPayX": null,
       "calculatePriceOnOrder": false,
+      "alwaysShowOrderDisclaimerAbove": false,
       "isCCTextOnly": false,
       "isShowSMSField": true,
       "includeCC": true,
