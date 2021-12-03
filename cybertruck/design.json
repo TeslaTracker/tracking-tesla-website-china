@@ -485,6 +485,7 @@
       },
       "isSaveDesignEnabled": false,
       "showLocalName": false,
+      "showCompanyAgentLabel": true,
       "showLegalConsent": ["ORDER_CONSENT", "RETURN_POLICY_CONSENT"],
       "showPrpLink": false,
       "showVAT": true,
@@ -605,18 +606,7 @@
       "product": { "isInventory": false, "isReservation": false, "data": {} },
       "isPreSale": {
         "source": "",
-        "selected_by": {
-          "or": [
-            "$MT335",
-            "$MT322",
-            "$MTS09",
-            "$MTS10",
-            "$MTS11",
-            "$MTX10",
-            "$MTX11",
-            "$MTY13"
-          ]
-        },
+        "selected_by": { "or": ["$MTP04"] },
         "target": true
       },
       "showBeforeSavingsPriceLabel": true,
@@ -653,7 +643,11 @@
       "showDOCandOMVICfees": true,
       "showVATBreakdown": false,
       "showDeliveryEstDisclaimer": false,
-      "nonRefundPolicy": { "source": false, "target": false },
+      "nonRefundPolicy": {
+        "source": true,
+        "selected_by": { "or": ["$MTP04"] },
+        "target": false
+      },
       "displayOrderRefundLongCopy": { "source": false, "target": false },
       "nonRefundPolicyDisclaimer": false,
       "showOrderRefundDisclaimer": true,
@@ -723,7 +717,12 @@
       "showAvailableInState": false,
       "showElectronicPayment": false,
       "showAccountTypeSwitch": true,
-      "extraBusinessFields": ["CompanyName", "CHAMBER_OF_COMMERCE"],
+      "extraBusinessFields": [
+        "CompanyName",
+        "CHAMBER_OF_COMMERCE",
+        "IDENTIFICATION_TYPE",
+        "IDENTIFICATION_NUMBER"
+      ],
       "extraPersonalFields": [
         "CHINESE_TITLE",
         "IDENTIFICATION_TYPE",

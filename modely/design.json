@@ -763,6 +763,7 @@
       },
       "isSaveDesignEnabled": false,
       "showLocalName": false,
+      "showCompanyAgentLabel": true,
       "showLegalConsent": ["ORDER_CONSENT", "RETURN_POLICY_CONSENT"],
       "showPrpLink": false,
       "showVAT": true,
@@ -1020,7 +1021,12 @@
       "showAvailableInState": false,
       "showElectronicPayment": false,
       "showAccountTypeSwitch": true,
-      "extraBusinessFields": ["CompanyName", "CHAMBER_OF_COMMERCE"],
+      "extraBusinessFields": [
+        "CompanyName",
+        "CHAMBER_OF_COMMERCE",
+        "IDENTIFICATION_TYPE",
+        "IDENTIFICATION_NUMBER"
+      ],
       "extraPersonalFields": [
         "CHINESE_TITLE",
         "IDENTIFICATION_TYPE",
@@ -1336,7 +1342,6 @@
           "option": {
             "$MT335": 0,
             "$MT339": 0,
-            "$MT322": 0,
             "$MTS09": 0,
             "$MTS10": 0,
             "$MTS11": 0,
