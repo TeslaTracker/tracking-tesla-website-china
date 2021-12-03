@@ -793,12 +793,12 @@
     }
   },
   "Lexicon.mp": {
-    "effective_date": "2021-10-15T00:45:00.000Z",
+    "effective_date": "2021-12-03T02:04:00.000Z",
     "market": "CN",
     "product": "mp",
     "factory": "GF00",
     "fees": {},
-    "name": "Marketing CN 2021.Oct.15 1920.3278.1295 [zh]",
+    "name": "Marketing CN 2021.Dec.03 2183.3619.1295 [zh]",
     "groups": [
       {
         "code": "MODEL",
@@ -919,15 +919,24 @@
           { "type": "name", "content": " " },
           { "type": "order_disclaimer", "content": "可全额退款。" }
         ],
+        "extra_content": [
+          {
+            "type": "components",
+            "content": [
+              { "type": "Title", "props": { "field": "sub_title" } },
+              { "type": "Options" }
+            ]
+          }
+        ],
         "groups": [],
-        "options": ["$MTP01", "$MTP02", "$MTP03", "$MTP04"],
+        "options": [],
         "required": true,
         "exclusive": true,
         "default_options": ["$MTP04"]
       },
       {
         "code": "BATTERY_AND_DRIVE",
-        "groups": [],
+        "groups": ["TRIM"],
         "context": "configurator",
         "options": [],
         "required": false,
@@ -937,12 +946,30 @@
         "extra_copy": [
           { "type": "name", "content": "预订Cybertruck皮卡车型（需要订金）" },
           {
-            "type": "order_disclaimer",
+            "type": "disclaimer",
             "content": "预计于 2022 年车辆即将量产时开放选配。"
           }
         ],
         "description": "Battery and Drivetrain",
-        "extra_content": []
+        "extra_content": [
+          { "type": "gallery", "content": [{ "group": "EXTERIOR_GALLERY" }] },
+          {
+            "type": "components",
+            "content": [
+              {
+                "type": "Title",
+                "props": { "classes": "coin-title", "component": "h3" }
+              },
+              {
+                "type": "Copy",
+                "props": {
+                  "field": "disclaimer",
+                  "classes": "tds--vertical_padding"
+                }
+              }
+            ]
+          }
+        ]
       },
       {
         "code": "DELIVERY_TIMING",
@@ -974,6 +1001,23 @@
         "required": false,
         "exclusive": false,
         "default_options": ["$APF2"]
+      },
+      {
+        "code": "EXTERIOR_GALLERY",
+        "groups": [],
+        "context": "configurator",
+        "options": [],
+        "required": false,
+        "exclusive": false,
+        "default_options": [],
+        "name": "Configuration Gallery",
+        "description": "Configuration Gallery",
+        "extra_content": [
+          {
+            "type": "asset[0]",
+            "content": [{ "url": "CYBERTRUCK/NVRP_m.png", "type": "image" }]
+          }
+        ]
       }
     ],
     "options": {
@@ -1377,7 +1421,7 @@
       "$WDD",
       "$SC04"
     ],
-    "options_id": 1920,
+    "options_id": 2183,
     "warnings": [
       {
         "type": "ELIGIBLE_GROUPS_TO_MOVE",
@@ -1412,6 +1456,11 @@
             "code": "CORE_CONFIGURATOR",
             "context": ["configurator"],
             "msg": "Present in both Copy and Options lexicons"
+          },
+          {
+            "code": "EXTERIOR_GALLERY",
+            "context": ["configurator"],
+            "msg": "Present in both Copy and Options lexicons"
           }
         ]
       },
@@ -1420,9 +1469,9 @@
         "message": "'Fees' should be moved to Copy lexicon from Options."
       }
     ],
-    "copy_id": 3278,
+    "copy_id": 3619,
     "language": "zh",
     "pricing_id": 1295,
-    "reference_id": 1920
+    "reference_id": 2183
   }
 }

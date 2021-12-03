@@ -1489,12 +1489,12 @@
   },
   "Lexicon.my": {
     "id": 2190,
-    "effective_date": "2021-11-30T02:20:00.000Z",
+    "effective_date": "2021-12-03T01:13:00.000Z",
     "market": "CN",
     "product": "my",
     "factory": "GF03",
     "fees": {},
-    "name": "Marketing CN 2021.Nov.30 2190.3921.3639",
+    "name": "Marketing CN 2021.Dec.03 2190.3936.3639",
     "groups": [
       {
         "code": "MODEL",
@@ -2371,7 +2371,7 @@
             "type": "zero_to_road_limit_units",
             "content": "0-100 公里/小时 加速"
           },
-          { "type": "range_units", "content": "续航里程 <br />WLTP 预估" },
+          { "type": "range_units", "content": "续航里程 <br /> 预估" },
           { "type": "epa", "content": "（国标工况法）" },
           { "type": "speed_units_short", "content": " 秒" },
           { "type": "range_units_short", "content": " 公里" },
@@ -3960,7 +3960,7 @@
           },
           {
             "type": "feature_list.default[0].items[0]",
-            "content": "高级音响系统，包括14个扬声器、1个低音炮、2个功放和沉浸式音效"
+            "content": "高级音响系统，包括13个扬声器、1个低音炮、2个功放和沉浸式音效"
           },
           {
             "type": "feature_list.default[0].items[1]",
@@ -4145,7 +4145,7 @@
           },
           {
             "type": "feature_list.default[0].items[0]",
-            "content": "高级音响系统，包括14个扬声器、1个低音炮、2个功放和沉浸式音效"
+            "content": "高级音响系统，包括13个扬声器、1个低音炮、2个功放和沉浸式音效"
           },
           {
             "type": "feature_list.default[0].items[1]",
@@ -7719,7 +7719,7 @@
               "unit_definitions": {
                 "seconds": { "label": "秒", "short_label": "秒" },
                 "kilometers": { "label": "公里", "short_label": "公里" },
-                "range_units": { "label": "续航里程（预估）<br />WLTP" },
+                "range_units": { "label": "续航里程 预估" },
                 "range_units_epa": {
                   "label": "续航里程 <br />国标工况法",
                   "short_label": "续航里程 <br />国标工况法"
@@ -8936,7 +8936,7 @@
         "content_localized": {}
       }
     ],
-    "copy_id": 3921,
+    "copy_id": 3936,
     "language": "zh",
     "pricing_id": 3639
   }

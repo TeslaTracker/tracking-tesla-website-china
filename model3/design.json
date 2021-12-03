@@ -1704,12 +1704,12 @@
   },
   "Lexicon.m3": {
     "id": 2189,
-    "effective_date": "2021-11-24T00:04:00.000Z",
+    "effective_date": "2021-12-03T02:00:00.000Z",
     "market": "CN",
     "product": "m3",
     "factory": "GF03",
     "fees": {},
-    "name": "Marketing CN 2021.Nov.24 2189.3877.3972",
+    "name": "Marketing CN 2021.Dec.03 2189.3937.4258",
     "groups": [
       {
         "code": "MODEL",
@@ -1859,7 +1859,7 @@
           },
           {
             "type": "feature_list.detail[0].items[2]",
-            "content": "高级音响系统，包括14个扬声器、1个低音炮、2个功放和沉浸式音效"
+            "content": "高级音响系统，包括13个扬声器、1个低音炮、2个功放和沉浸式音效"
           },
           {
             "type": "feature_list.detail[0].items[3]",
@@ -2556,7 +2556,7 @@
           { "type": "modal_list.default[1].items[1]", "content": "方向盘加热" },
           {
             "type": "modal_list.default[1].items[2]",
-            "content": "高级音响系统，包括14个扬声器、1个低音炮、2个功放和沉浸式音效"
+            "content": "高级音响系统，包括13个扬声器、1个低音炮、2个功放和沉浸式音效"
           },
           {
             "type": "modal_list.default[1].items[3].main_title",
@@ -3890,7 +3890,7 @@
           },
           {
             "type": "dynamic_grid_feature[1]",
-            "content": "高级音响系统，包括14个扬声器、1个低音炮、2个功放和沉浸式音效"
+            "content": "高级音响系统，包括13个扬声器、1个低音炮、2个功放和沉浸式音效"
           },
           { "type": "feature_title", "content": "所有车型均标配" },
           {
@@ -5223,7 +5223,7 @@
           },
           {
             "type": "feature_list.default[0].items[0]",
-            "content": "高级音响系统，包括14个扬声器、1个低音炮、2个功放和沉浸式音效"
+            "content": "高级音响系统，包括13个扬声器、1个低音炮、2个功放和沉浸式音效"
           },
           {
             "type": "feature_list.default[0].items[1]",
@@ -6402,9 +6402,9 @@
         "code": "$CW03",
         "set_rules": [{ "action": "set", "target": "$CW03" }],
         "unset_rules": [{ "action": "unset", "target": "$CW03" }],
-        "name": "寒冷天气套件",
-        "description": "寒冷天气套件",
-        "long_name": "寒冷天气套件",
+        "name": "寒冷天气功能",
+        "description": "寒冷天气功能",
+        "long_name": "寒冷天气功能",
         "extra_copy": [],
         "price": 0,
         "pricing": [
@@ -6994,7 +6994,7 @@
           },
           {
             "type": "feature_list.default[0].items[2]",
-            "content": "高级音响系统，包括14个扬声器、1个低音炮、2个功放和沉浸式音效"
+            "content": "高级音响系统，包括13个扬声器、1个低音炮、2个功放和沉浸式音效"
           },
           {
             "type": "feature_list.default[0].items[3].main_title",
@@ -7170,7 +7170,7 @@
           },
           {
             "type": "feature_list.default[0].items[2]",
-            "content": "高级音响系统，包括14个扬声器、1个低音炮、2个功放和沉浸式音效"
+            "content": "高级音响系统，包括13个扬声器、1个低音炮、2个功放和沉浸式音效"
           },
           {
             "type": "feature_list.default[0].items[3].main_title",
@@ -7685,7 +7685,7 @@
           { "type": "base", "value": 0, "context": "CNY" },
           {
             "type": "upgrade",
-            "value": 2400,
+            "value": 1600,
             "context": "CNY",
             "set_rules": [
               {
@@ -8992,7 +8992,7 @@
           },
           {
             "type": "feature_list.default[0].items[1]",
-            "content": "高级音响系统，包括14个扬声器、1个低音炮、2个功放和沉浸式音效"
+            "content": "高级音响系统，包括13个扬声器、1个低音炮、2个功放和沉浸式音效"
           },
           {
             "type": "feature_list.default[0].items[2].main_title",
@@ -9164,7 +9164,7 @@
           },
           {
             "type": "feature_list.default[0].items[1]",
-            "content": "高级音响系统，包括14个扬声器、1个低音炮、2个功放和沉浸式音效"
+            "content": "高级音响系统，包括13个扬声器、1个低音炮、2个功放和沉浸式音效"
           },
           {
             "type": "feature_list.default[0].items[2].main_title",
@@ -10670,7 +10670,7 @@
           { "type": "drive_mode", "content": "双电机全轮驱动" },
           {
             "type": "interior_sound_system",
-            "content": "高级音响系统，包括14个扬声器、1个低音炮、2个功放和沉浸式音效"
+            "content": "高级音响系统，包括13个扬声器、1个低音炮、2个功放和沉浸式音效"
           },
           { "type": "interior_floor_mats", "content": "包括" }
         ],
@@ -17936,8 +17936,8 @@
         "content_localized": {}
       }
     ],
-    "copy_id": 3877,
+    "copy_id": 3937,
     "language": "zh",
-    "pricing_id": 3972
+    "pricing_id": 4258
   }
 }
